@@ -1,0 +1,54 @@
+table {
+  width: 100%;
+  margin: 20px 0 50px;
+  border-top: 1px groove #ccc;
+  border-left: 1px groove #ccc;
+  border-spacing: 0;
+}
+
+table tr th, table tr td {
+  font-size: 12px;
+  border-bottom: 1px groove #ccc;
+  border-right: 1px groove #ccc;
+  padding: 7px;
+}
+
+table tr th {
+  background: #e6eaff;
+}
+
+.table {
+  width: 100%;
+  margin: 20px 0 50px;
+  border-top: 1px groove #ccc;
+  border-left: 1px groove #ccc;
+  border-spacing: 0;
+  font-family: serif;
+}
+
+.table tr th, .table tr td {
+  font-size: 12px;
+  border-bottom: 1px groove #ccc;
+  border-right: 1px groove #ccc;
+  padding: 7px;
+}
+
+.table tr th {
+  background-color: #cccfff
+}
+
+.youbi {
+  background-color: #cccfff;
+}
+
+#sun {
+  background-color: red;
+}
+
+#sat {
+  background-color: blue;
+}
+
+#weekday {
+  background-color: yellow;
+}

@@ -1,0 +1,153 @@
+ body 
+ {
+  width:100%
+  margin:0;
+  padding:0;
+  color:#666;
+  font-family:Arial, sans-serif;
+  /*background: #FFFFCC;*/
+  /*background: url(../image/pattern.jpg);*/
+  background: linear-gradient(to right bottom, #ff9 20%, #FF9999 80%);
+ }
+
+    ul{
+      list-style: none;
+    }
+
+  li {
+    display: inline-block;
+  }
+
+    div#container{
+      width: 960px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #ffCCCC;
+      overflow: hidden;
+      }
+
+    div.main{
+      width: 70%;
+    }
+
+    div {
+      overflow: hidden;
+    }
+
+    header {
+      
+      padding: 0px;
+      margin: 30px auto;
+      background: #CCFFCC;
+      border: white 10px solid;
+      text-align: center;
+      background: radial-gradient(circle farthest-corner at center, #FFFF99 50%, #CCFFCC 100%)
+          }
+
+    footer {
+      font: bold 80%1em Arial, Helvetica, sans-serif;
+      color: #white;
+      text-align: center;
+      padding: 10px;
+      background: #CCFFCC;
+      border: white 10px solid;
+      clear: both;
+          }
+
+    h1 { color: black; }
+    span {
+      color: red;
+      font-size: 20px;
+    }
+    img {
+      width: 200px;
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border-style: none; /*・ border-style: none;をして画像の周りの線を消す(chromeは最初からないけど、ブラウザによってはある)
+    /*} /*逆に指定する時は、border: 5px solid gray とかにする*/
+    } /*ここのカッコを忘れちゃったから、下のaが適応されなくて、ボタンが表示されなかった*/
+    a {
+      font-size: 150%;
+      font-weight: bold;
+      color: #ff6666;
+      text-decoration: none;
+    }
+    a:link { 
+      color:#000000;
+    }
+    a:visited{
+      color: #0000cc;
+    }
+    a:hover { 
+      color: #9900FF;
+      text-decoration: underline;
+      font-style: italic;
+    }
+    a:active{
+      color: #FF3333;
+    }
+    .btn a {
+      background: url(../image/button.gif) no-repeat left top; /*保存した緑と紫の画像の左側の緑の部分を指定*/  
+      /*no−repeatで背景が指定した画像が連続になってそれで埋まらないようにする*/
+      /*left top背景の画像の位置を指定する(例えば 3.htmlの婚約指輪の部分)*/
+      width: 140px;
+      height: 36px;
+      display: block;
+      color: #FFFFFF;
+      font-size: 15px;
+      line-height: 36px; /*文字の上下の位置を調整（背景のheightによってまた違う）*/
+      text-align: center;
+    }
+
+    .btn {
+      display: inline-block;/*　これをしないとブロック要素のままで、結婚指輪、福原愛、ジャンホンジェンの三つが縦に並んでしまう。それをインライン要素に変えて横並びに。インライン要素はスペースや改行等を持たないため。　しかしこのdisplay: inline-block;　でブロック要素が持つ高さや幅を持ちながらインライン要素へと変更ができる。*/
+    }
+
+    .btn a:hover {
+      background: url(../image/button.gif) no-repeat right top;/*
+      押した時（hover)に保存した緑と紫の画像の左側の緑の部分を指定*/
+    }
+
+      div.sidebar{
+      width:30%;
+      float: left;
+    }
+
+    dl.sidemenu{
+      margin: 0px;
+    padding: 0px 0px 5px;
+    background: #DFF4E7;
+    width: 240px;
+    }
+    
+    dl.sidemenu dt {
+      background: url(../image/dt_bg.jpg) repeat-x;
+      height: 32px;
+      width: 240px;
+      font-size: 15px;
+      line-height: 32px;
+      font-weight: bold;
+      color: #fff;
+      text-indent: 0.7em;
+      margin-bottom: 5px;
+    }
+
+    dl.sidemenu dd {
+    font-size: 12px;
+    line-height: 18px;
+    height: 18px;
+    text-indent: 0.7em;
+    margin: 0px;
+    padding-bottom: 5px;
+    }
+
+    dl.sidemenu dd a{
+       color: #666;
+    text-decoration: none;
+    padding-left: 14px;
+    }
+
+    dl.sidemenu dd a:hover{
+    color: #F90;
+    }

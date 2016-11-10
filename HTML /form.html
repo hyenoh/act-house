@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <form method="post" enctype="multipart/form-data
+  ">
+    <fieldset>
+      <legend>お名前</legend> <input type="text" name="name">
+    </fieldset>
+
+    <fieldset>
+      <legend>ご回答：</legend>
+
+      <label>
+      <input type="radio" name="reply" value="回答１" checked>回答１
+      </label>
+
+      <label>
+      <input type="radio" name="reply" value="回答2">
+      回答2
+      </label>
+
+      <label>
+      <input type="radio" name="reply" value="回答3">
+      回答3
+      </label>
+      </fieldset>
+
+  <fieldset>
+    <legend>郵便番号</legend>
+    <input type="text" name="zipCode" size="20" maxlength="8"
+    pattern="\d{3}-?\d{4}" title="ハイフンを含んだ８文字" placeholder="123-4567">
+  </fieldset>
+
+
+    <fieldset>
+      <legend>乗り物</legend>
+      <label for=""><input type="checkbox" name="vehicle" value="タクシー">タクシー</label>
+      <label for=""><input type="checkbox" name="vehicle" value="バイタク">バイタク</label>
+      <label for=""><input type="checkbox" name="vehicle" value="ジプニー">ジプニー</label>
+      <label for=""><input type="checkbox" name="vehicle" value="その他">その他</label>
+    </fieldset>
+
+
+<fieldset>
+<legend>山手線</legend>
+ <select name="stations">
+  <optgroup label="外">
+    <option value="池袋" selected>池袋</option>
+    <option value="目白">目白</option>
+  </optgroup>
+  <optgroup label="内">
+    <option value="高田馬場">高田馬場</option>
+    <option value="新宿">新宿</option>
+  </optgroup>
+ </select>
+</fieldset>
+
+<fieldset>
+ <legend>ショッピングモール</legend>
+   <input type="text" name="mall" size="30" list="malls" placeholder="ショッピングモール名を入力してください">
+  <datalist id ="malls">
+    <option value="アヤラモール"></option>
+    <option value="SMモール"></option>
+    <option value="SMシーザイド"></option>
+    <option value="カントリーモール"></option>
+  </datalist>
+  </fieldset>
+
+  <fieldset>
+        <legend>画像</legend>
+        <input type="file" name="image" accept="image/png">
+      </fieldset> 
+      <input type="hidden" name="lastvehicle" value="taxi">
+
+    <fieldset>
+      <legend>感想</legend>
+      <textarea name="impression" cols="30" rows="10" placeholder="感想">
+    </textarea>
+    </fieldset>
+
+  <fieldset>
+    <legend>パスワード</legend>
+    <input type="password" name="password" size="30" maxlength="18" title="半角英数字で入力してください" required>
+  </fieldset>
+      <p>
+      <input type="submit" value="送信する">
+      <input type="button" value="なんでもないボタン">　
+      <button>buttonタグでサブミット</button>
+    </p>
+  </form>
+</body>
+</html>
+
+<!-- datalist>optio[value]*6 #valueが６個 -->

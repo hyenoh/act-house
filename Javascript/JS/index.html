@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container"></div>
+<button id="add-div" type="button">子要素を追加</button>
+<button id="remove-div" type="button">子要素を削除</button>
+<hr>
+<button id="delay" type="button">3秒ごにアラート</button>
+<div id="timer-display"></div>
+<button id="start" type="button">スタート</button> 
+<button id="stop" type="button">ストップ</button> 
+<hr>
+<img src="hari.jpeg" id="image">
+<hr>
+<div id="div1"></div>
+  <div id="div2"></div>
+<hr>
+<button id="open-self">自画面で開く</button>
+<button id="open-new">別タブで開く</button>
+<hr>
+<input type="text" id="from" value="1">
+<input type="text" id="to" value="10">
+<button id="btn4" type="button"></button>
+<hr>
+<input type="text" id="text2" value="0">
+<button id="btn3" type ="button">配列チェック</button>
+<hr>
+<input type="text" id="text1">
+<button id="btn1" type="button">値チェック</button>
+<button id="btn2" type="button">値チェック(switch)</button>
+<hr>
+ <button type="button" id="alert">アラート表示</button>
+ <button type="button" id="confirm">確認ダイアログ表示</button>
+ <button type="button" id="prompt">入力ダイアログ表示</button>
+
+  <p id="par1" class="p">おい</p> <!-- p1.innerHTML = message;  #innerHTMLはタグの中身、つまりここでは「おい」「お前」「うん」 -->
+  <p id="par2" class="p">お前</p>
+  <p id="par3" class="p">うん</p>
+
+  <button type="button" onclick="changeString('黒ラベル','ウェイ')">文字列変更</button>
+
+  <a href="javascript:changeString('ハイネケン','えっ')">リンクで文字列変更</a>
+
+  <button type="button" onclick="changeString('飲み会','行きたい','いつ')">変更</button>
+
+  <button type="button" id="btn">イベントリスナで変更</button>
+
+
+    <script type="text/javascript" src="script.js">
+
+    </script>
+</body>
+</html>

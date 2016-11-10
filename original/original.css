@@ -1,0 +1,242 @@
+body
+
+header{
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.8);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-right {
+  line-height: 65px;
+}
+
+.header-right a {
+  display: block;
+  margin-right: 5px;
+  float: right;
+text-decoration: none;
+}
+
+.header-right:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.header-right a.login {
+  background: rgba(255,0,0,0.5);
+  color: rgba(255,255,255,1);
+  transition: 0.5s;
+}
+
+.header-right a.student {
+background-color: rgba(255,255,255,0.5);
+color: white;
+}
+
+.header-right a.visitor {
+background-color: rgba(255,255,255,0.5);
+color:white;
+}
+
+.header-left {
+  float: left;
+}
+
+.logo {
+    width: 220px;
+    height: 65px;
+}
+
+.top-wrapper {
+  background-image: url(pimtha.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  width: 1200px;
+  height: 750px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+display: inline-block;
+width: 20px;
+font-size: 180px;
+position: absolute;
+top: 5px;
+left: 120px;
+font-family: serif;
+color: white;
+text-shadow: 3px 5px 10px #333;
+}
+
+
+.upper-wrapper {
+background-image: url(bepppu.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1.beppu {
+  font-size: 140px;
+  display: inline-block;
+  letter-spacing: 30px;
+  font-family: serif;
+}
+
+h1.beppu-left {
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 10px;
+}
+
+h1.beppu-right {
+  color: white;
+  position: absolute;
+  top: 20%;
+  right: 10px;
+}
+
+.upper-wrapper p {
+  display: inline-block;
+  font-size: 40px;
+  position: absolute;
+  top: 10px;
+  left: 20%;
+  font-family: serif;
+}
+
+.middle-wrapper {
+background-image: url(campus.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-size: 40px;
+  font-family: cursive;
+  font-weight: bold;
+  color: #CC3366;
+  opacity: 0.9;
+  letter-spacing: 5px;
+}
+
+.content {
+  float: left;
+  width: 25%
+}
+
+.contents-icon img {
+  width: 220px;
+  height: 350px;
+  justify-content:space-around;
+  padding-left: 170px;
+} 
+
+.contents-icon img:hover{
+  opacity: 0.9;
+}
+
+.content h3 {
+  display: block;
+  text-align:center;
+  color: white;
+  width: 200px;
+  padding-left: 170px;
+  font-family: cursive;
+  font-size:22px;
+  letter-spacing: 2px
+  color: white;
+  text-shadow: #333 2px 2px;
+}
+
+.content p {
+  display: block;
+  color: white;
+  text-align: center;
+  width: 200px;
+  padding-left: 170px;
+  color:white;
+  text-shadow: #333 2px 2px;
+}
+
+
+.bottom-wrapper{
+height: 1000px;
+background-color: white;
+position: relative;
+}
+
+.bottom-left img{
+  width: 400px;
+  height:500px;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  }
+
+.bottom-right {
+  display: block;
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  right: 15%;
+}
+
+.bottom-right h2 {
+  font-size: 40px;
+}
+
+.bottom-right p {
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+.goodbye {
+  position:absolute;
+  bottom: 38%;
+  right: 25%;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  padding: 15px 60px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0px 7px #1a7940;
+}
+
+.goodbye:hover {
+  opacity: 1;
+}
+
+.last-wrapper {
+background-image: url(graduate.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.last-wrapper h1 {
+  font-size: 100px;
+  line-height: 250px;
+  text-align: center;
+  color:white;
+
+}
