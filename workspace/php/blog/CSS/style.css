@@ -1,0 +1,370 @@
+/*body {
+  background: url('https://unsplash.it/1280/?image=88');
+Thanks to Michael Richins for suggesting this fix
+  width: 100%;
+  height: 100vh;
+  padding: 32px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}*/
+
+.container {
+
+}
+
+header{
+width: 100%;
+height: 50px;
+padding: 10px 5px;
+border-bottom: 5px solid;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+header ul {
+  display: block;
+  float: left;
+}
+
+header #blog_name {
+ float:left;
+ display: block;
+ line-height: 50%;
+}
+
+#blog_name h1 {
+  font-family: 'Covered By Your Grace', cursive;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.right-header {
+  float: right;
+}
+
+.top-content {
+  margin: 20px 0;
+  height: 600px;
+  background-image: url(../hyeonji-2.jpg);
+    background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-content .top{
+  display: inline-block;
+  float: left;
+  line-height: 500px;
+  color: #FFCCFF;
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
+  font-weight: lighter;
+  font-size: 110px;
+  margin: 0 10px;
+}
+
+.top-content .top2 {
+  display: inline-block;
+  float: right;
+  line-height: 500px;
+  color: #FFF;
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
+  font-weight: lighter;
+  font-size: 100px;
+}
+
+.left-content{
+  float: left;
+  width: 20%;
+}
+
+.left-content a:hover{
+  color: #fff;
+}
+
+.pink {
+  position: relative;
+  display: inline-block;
+  padding: .65em 4em;
+  border: 2px solid #333;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.pink::after {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: -1;
+  content: '';
+  width: 101%;
+  height: 105%;
+  background-color: #FF0066;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.pink:hover {
+  color: #fff;
+}
+
+.pink a {
+  color: black;
+}
+.pink:hover::after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pink li {
+  list-style: none;
+}
+
+
+#content {
+margin: 20px auto;
+border-style: none;
+width: 50%;
+float: left;
+text-align: center;
+font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
+}
+
+#content article img {
+  width: 300px;
+  height: auto;
+}
+
+.color:hover {
+  color: red;
+}
+
+.breadcrumbs {
+  list-style-type: none;
+  padding-right: 150px
+   width: 500px;
+   height: 75px;
+}
+
+.breadcrumbs li {
+ text-align: center;
+ color: white;
+ font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
+}
+
+.show_breadcrumbs{
+  list-style-type: none;
+   width: 100%;
+   height: 75px;
+}
+
+.show_breadcrumbs li {
+ text-align: center;
+ padding-right: 80px;
+ color: black;
+ font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
+}
+
+.bottom-content {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.bottom-left{
+  width: 70%;
+  height: auto;
+}
+
+.drafts {
+
+}
+
+#profile {
+  width: 20%;
+  height: 350px;
+  float: right;
+  margin: 20px auto;
+/*    border: 2px solid #333;*/
+  border: solid 1px black;
+  display: inline-block;
+  padding: .2em 2.5em;
+  border: 2px solid #333;
+  border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+  color: #333;
+  font-family: 'Covered By Your Grace', cursive;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+}
+
+#profile .profile_pic {
+  width: 180px;
+  height: 150px;
+  padding: 10px 20px;
+  border-radius: 50%;
+}
+
+#profile a{
+  text-decoration: none;
+}
+
+.new_bread {
+  border-bottom: 3px solid;
+}
+
+#social-icon a {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  padding: 0;
+  color: black;
+}
+
+#social-icon i {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  border-radius: 50%;
+  background: #c6bb80;
+  line-height: 50px;
+  text-align: center;
+}
+#social-icon i:before { padding 0; line-height: 50px; }
+#social-icon a:hover i { background: #bcaf68; }
+
+.overlay {
+  width: 1440px;
+  height: 100%;
+}
+
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: no-repeat;
+  background-size: cover;
+}
+
+.new_whole {
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  padding-left: 150px;
+}
+
+.new {
+  color: white;
+}
+
+.post_title {
+  margin: 30px 0;
+}
+
+.post_cont{
+  margin: 30px 0;
+}
+
+.post_cate{
+  margin: 30px 0;
+}
+
+.post_image{
+  margin: 30px 0;
+}
+
+.post_draft{
+  margin-bottom: 30px;
+}
+
+.post_send{
+  padding: 0 20px;
+}
+
+.post_send button {
+  display: inline-block;
+  width: 130px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 25px;
+  outline: none;
+  font-size: 15px;
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  border: 2px solid #333;
+  color: #333;
+  overflow: hidden;
+}
+
+.post_send button:hover::after {
+  -webkit-transform: scale(2) rotate(180deg);
+  transform: scale(2) rotate(180deg);
+  background: #333;
+}
+
+.post_send button::before,
+.post_send button::after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  content: '';
+}
+.post_send button,
+.post_send button::before,
+.post_send button::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.post_send button:hover {
+  color: white;
+}
+
+.post_send button::after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pre_nex {
+  width: auto;
+  height: 50px;
+}
+
+.show_container h1, .show_container p{
+text-align: center;
+}
+
+.show_image {
+  text-align: center;
+/*  border:1px solid #333;/* 外枠の色    */
+  /*padding:5px;*//* 余白 */   
+/*  background-color:#ffffff;*//* 余白部分の色 */   
+  border-left:5px solid #ff0000;
+  border-right:5px solid #0000ff;
+}
+
+.show_image:before,
+.show_image:after {
+ content:"";
+ display:block;
+ height:5px;
+ width:100%;
+  background:-webkit-gradient(linear, left top, right bottom, from(#f00), to(#00f));
+  background:-moz-linear-gradient(left, #f00, #00f);
+  background:linear-gradient(left, #f00, #00f);
+
+
